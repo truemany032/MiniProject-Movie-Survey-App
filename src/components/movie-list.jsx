@@ -21,7 +21,7 @@ function MovieList({ selectedMovie, onChange }) {
               className="form-radio text-purple-600"
             />
             <div>
-              <p className="font-medium">{movie.title}</p>
+              <p className="font-medium">{movie.title} ({movie.year})</p>
               <p className="text-sm text-gray-500">Director: {movie.director}</p>
             </div>
           </label>
